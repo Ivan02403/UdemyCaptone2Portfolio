@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.home{
+	background-color: #88D9F2;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	
+}
+
+.name-title{
+	/* border: 5px solid black; */
+	position: relative;
+	top:25%;
+}
+
+.elements{
+	display: block;
+	color: white;
+}
+
+.title{
+	font-size: 5.5rem;
+	font-family: 'Pangolin', cursive;
+	position: relative;
+}
+
+.sub-title{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5rem;
+	position: relative;
+	margin-top: 4.5rem;
+}
+
+.mountain{
+	position: relative;
+	top: 20%;
+	margin: 0;padding-bottom: 0;
+	
+}
+
+.info{
+	width: 100%;
+	height: 100vh;
+	/* border: 5px solid black; */
+	margin: 0;padding-bottom: 0;
+	}
+
+.akoto{
+	position:relative;
+	left: 45%;
+	top:15%;
+	margin: 0;padding-bottom: 0;
+	border: 5px solid black;
+	border-radius: 500px;
+}
+
+.information{
+	/* border: 5px solid black; */
+	position: relative;
+	top: 25%;
+	left: 12%;
+	width: 75%;
+}
+
+.head-title{
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 3rem;
+	font-family: 'Ubuntu', sans-serif;
+	color:#42C8FF;
+}
+
+.content{
+	font-size: 2rem;
+	font-family: 'Ubuntu', sans-serif;
+	color:#42C8FF;
+	text-align: center;
+}
+
+.projects{
+	width: 100%;
+	height: 100vh;
+	/* border: 5px solid black; */
+	margin: 0;
+	padding-bottom: 0;
+	background-color: #88D9F2;
+}
+
+.head-project{
+	color:white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	position: relative;
+	top:5%;
+	padding-left: 50px;
+}
+
+.login{
+	width: 45%;
+	/* border: 5px solid black; */
+	position: relative;
+	left: 1%;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+.projects-ss{
+	/* border: 5px solid wheat; */
+	position: relative;
+	top:20%;
+	
+
+}
+
+.contacts{
+	height: 100vh;
+	width: 100%;
+	/* border: 5px solid black; */
+	margin: 0;
+	padding-bottom: 0;
+}
+
+.head-contact{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	position: relative;
+	top:5%;
+	padding-left: 50px;
+	color:#42C8FF
+}
+
+.contact-details{
+	position: relative;
+	top:20%;
+	color:#42C8FF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5rem;
+	padding-left: 50px;
+}
+
+.list-con{
+	text-decoration: none;
+	list-style: none;
+	
+
+}
+
+.links{
+	text-decoration: none;
+	color: #42C8FF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer{
+
+	height: 30vh;
+	background-color: #42C8FF;
+	/* border: 5px solid black; */
+	position: relative;
+	top:35%;
+}
+
+.footer-head{
+	text-align: center;
+	position: relative;
+	top:50%;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+}
+
+.footer-detail{
+	color: white;
+	position: relative;
+	top:60%;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width:600px){
+	.mountain{
+		position: relative;
+		top: 40%;
+		margin: 0;padding-bottom: 0;
+		width: 100%;
+	}
+
+	.title{
+		font-size: 4rem;
+		position: relative;
+	}
+
+	.akoto{
+		position:relative;
+		left: 30%;
+		top:15%;
+		margin: 0;padding-bottom: 0;
+		border: 5px solid black;
+		border-radius: 500px;
+	}
+
+	.head-title{
+		text-align: center;
+		padding-bottom: 50px;
+		font-size: 2rem;
+		font-family: 'Ubuntu', sans-serif;
+		color:#42C8FF;
+	}
+
+	.content{
+		font-size: 1.5rem;
+		font-family: 'Ubuntu', sans-serif;
+		color:#42C8FF;
+		text-align: justify;
+	}
+
+	.info{
+		width: 100%;
+		height: 100vh;
+		/* border: 5px solid black; */
+		margin: 0;padding-bottom: 0;
+		padding-bottom: 100px;
+		}
+
+	.head-project{
+		font-size: 1.5rem;
+	}
+
+	.login{
+		border: 5px solid black;
+		width: 95%;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	
+	.projects-ss{
+		border: 5px solid wheat;
+		position: relative;
+		top:15%;
+	}
+
+	.head-contact{
+		
+		font-size: 1.5rem;
+	}
+
+	.contact-details{
+		font-size: 1rem;
+		
+	}
+	
+}
